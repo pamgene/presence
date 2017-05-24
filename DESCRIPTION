@@ -1,0 +1,16 @@
+Package: presence
+Type: Package
+Title: BNOperator for calculating presence of a spot.
+Version: 1.0
+Date: 2017-5-24
+Author: Rik de Wijn
+Maintainer: Rik de Wijn <rdwijn@pamgene.com>
+Description: Determines if a kinetic series display a significant positive
+    trend. Used in PTK kinetic QC app
+Encoding: UTF-8
+LazyData: true
+Imports:
+    bnutil,
+    pgMulticore,
+    plyr
+RoxygenNote: 5.0.1

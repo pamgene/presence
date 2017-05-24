@@ -1,4 +1,4 @@
-#' @import plyr, pgMulticore
+#' @import plyr pgMulticore
 runPresence = function(df, multicore = TRUE){
   if (!multicore){
     aResult = ddply(df, ~rowSeq + colSeq, .fun = presence)
